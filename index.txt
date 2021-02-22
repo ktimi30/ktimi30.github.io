@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="hu">
 <head>
-<title>IDE írd be a repó nevét:
+<title>IDE írd be a repó nevét: ktimi30
 </title>
 </head>
 <body>
