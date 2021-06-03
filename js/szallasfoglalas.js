@@ -9,14 +9,6 @@ function init() {
 }
 
 function foglalas() {
-     ures($("nev"));
-    ures($("email"));
-    ures($("szam"));
-    ures($("erkezes"));
-    ures($("tavozas"));
-    ures($("felnottek"));
-    ures($("gyerekek"));
-    ures($("szoba"));
     if ($("szam") >= 10) {
         window.alert("Hibás telefonszámot adott meg!");
     }
@@ -31,8 +23,4 @@ function foglalas() {
     }
     $("foglalas").innerHTML = "Kedves " + $("nev").value + "! A szobafoglalás sikeresen megtörtént!";
 }
-function ures(ertek){
-if(ertek.value.length == 0){
-    window.alert("A mezők kitöltése kötelező!");
-    $("form").reset();
-}
+
