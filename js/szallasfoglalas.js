@@ -35,5 +35,4 @@ function ures(ertek){
 if(ertek.value.length == 0){
     window.alert("A mezők kitöltése kötelező!");
     $("form").reset();
-    $("btn").removeEventListener();
 }
