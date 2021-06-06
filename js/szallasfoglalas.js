@@ -9,7 +9,8 @@ function init() {
 }
 
 function foglalas() {
-     ures($("nev"));
+    window.alert("Kurva");
+    ures($("nev"));
     ures($("email"));
     ures($("szam"));
     ures($("erkezes"));
