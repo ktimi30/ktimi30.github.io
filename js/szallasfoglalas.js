@@ -8,6 +8,7 @@ function init() {
     $("btn").addEventListener("click", foglalas, false);
 }
 function foglalas() {
+    window.alert("Működik");
     ures($("nev"));
     ures($("email"));
     ures($("szam"));
