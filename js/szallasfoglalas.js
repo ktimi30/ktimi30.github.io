@@ -7,7 +7,6 @@ function $(id) {
 function init() {
     $("btn").addEventListener("click", foglalas, false);
 }
-
 function foglalas() {
     ures($("nev"));
     ures($("email"));
@@ -31,6 +30,7 @@ function foglalas() {
     }
     $("foglalas").innerHTML = "Kedves " + $("nev").value + "! A szobafoglalás sikeresen megtörtént!";
 }
+
 function ures(ertek) {
     if (ertek.value.length == 0) {
         window.alert("A mezők kitöltése kötelező!");
